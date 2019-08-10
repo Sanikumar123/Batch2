@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ZohoSignUpPageSuite">
+
+<listeners>
+
+<listener class-name="extentlisteners.ExtentListeners" />
+</listeners>
+
+  <test name="validateZohoHomepageTitle">
+    <classes>
+      <class name="zoho.zohosignp.suitepack.ZohoSignUPTestPage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
